@@ -108,7 +108,7 @@ function App() {
                   </tr>
                   <tr>
                     <td className="border-2 border-black px-3 py-1 ">8mm</td>
-                    <td className="border-2 border-black px-3 py-1 ">290</td>
+                    <td className="border-2 border-black px-3 py-1 ">288</td>
                     <td className="border-2 border-black px-3 py-1 ">{(resultado / 290).toFixed(2)}</td>
                   </tr>
                   <tr>
