@@ -60,7 +60,7 @@ function App() {
         </form>
         {
           showtable && (
-            <div className="mt-2">
+            <div className="mt-2 mb-5">
               <table className="text-center mb-1">
                 <thead className="bg-gray-300">
                   <tr className="rounded-sm">
