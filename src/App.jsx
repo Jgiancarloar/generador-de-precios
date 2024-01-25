@@ -58,12 +58,6 @@ function App() {
           />
           <p className="text-xs">*Precio de tn en dólares.</p>
         </form>
-        <div className="flex justify-center">
-          <button
-            className="bg-indigo-400 text-white py-1 px-5 border-2 border-black rounded-md font-bold uppercase"
-            onClick={reset ? reiniciar : generarPrecios}
-          >{reset ? "Reiniciar" : "Generar precios"}</button>
-        </div>
         {
           showtable && (
             <div className="mt-2">
@@ -124,7 +118,12 @@ function App() {
 
           )
         }
-
+        <div className="flex justify-center">
+          <button
+            className="bg-indigo-400 text-white py-1 px-5 border-2 border-black rounded-md font-bold uppercase"
+            onClick={reset ? reiniciar : generarPrecios}
+          >{reset ? "Reiniciar" : "Generar precios"}</button>
+        </div>
       </div>
     </>
   )
